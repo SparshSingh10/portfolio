@@ -10,7 +10,7 @@ function Hero() {
 
     const controls = useControls('HackerRoom', {
         positionX: {
-            value: 0.1, // Default position X
+            value: 0.1, // Default position X.
             min: -10,
             max: 10,
         },
