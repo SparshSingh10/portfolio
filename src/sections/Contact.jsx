@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import emailjs from '@emailjs/browser';
 import { useRef, useState } from 'react';
 import Alert from '../components/Alert.jsx'; // alert component
@@ -18,8 +19,8 @@ const Contact = () => {
         setLoading(true);
 
         emailjs.send(
-            'service_hpcnox2',           // Service ID
-            'template_6rij3aa',          // Template ID
+            process.env.REACT_APP_EMAILJS_SERVICE_ID,  // Service ID from .env
+            process.env.REACT_APP_EMAILJS_TEMPLATE_ID, // Template ID from .env
             {
                 from_name: form.name,
                 to_name: 'Sparsh',
@@ -27,7 +28,7 @@ const Contact = () => {
                 to_email: 'arsh262002@gmail.com',
                 message: form.message,
             },
-            'okCk_Kbp_mKwDx5In'          // Public Key
+            process.env.REACT_APP_EMAILJS_PUBLIC_KEY    // Public Key from .env
         )
             .then(
                 () => {
