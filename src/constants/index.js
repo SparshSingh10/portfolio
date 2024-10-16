@@ -58,11 +58,11 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    title: 'E-Commerce Website ',
+    desc: ' Prepared a e-commerce website implementing CRUD functionality and Authentication.',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion, and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+      ' Users can add, edit, and delete products, and leave reviews',
+    href: 'https://e-commerce-nx57.onrender.com/products',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -95,11 +95,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, it supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Lost and Found Website - For students facing lost item challenges',
+    desc: ' For students facing lost item challenges',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      'it provides a user-friendly interface for easy navigation, search, and uploading of lost items, Reduced the average time for students to report and find lost items',
+    href: 'https://lostandfound-dc4u.onrender.com/',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
@@ -132,11 +132,11 @@ export const myProjects = [
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'Movie Ticket Booking Website',
+    desc: 'website for users to search for movies, view shows, and book tickets.',
     subdesc:
-      'With a focus on efficiency, CarePulse integrates complex forms and SMS notifications, by using Next.js, Appwrite, Twilio, and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      'Cinema owners can manage show schedules, configure seating plans, and monitor bookings.Users can access a detailed history of their ticket bookings enabling them to track past and upcoming reservations.Cinema owners can customize seat layouts with over 300 seats, allowing flexible arrangements for different shows',
+    href: 'https://moviemania-69o4.onrender.com/',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
@@ -167,233 +167,6 @@ export const myProjects = [
         id: 4,
         name: 'Framer Motion',
         path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-    subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla, and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-    texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
-    logoStyle: {
-      backgroundColor: '#0E1F38',
-      border: '0.2px solid #0E2D58',
-      boxShadow: '0px 0px 60px 0px #2F67B64D',
-    },
-    spotlight: '/assets/spotlight4.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-    subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
-    logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
-    },
-    spotlight: '/assets/spotlight5.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'LostAndFound - College Lost and Found Website',
-    desc: 'A tailored website designed for easy student access within the college community, providing a user-friendly interface for easy navigation, search, and uploading of lost items.',
-    subdesc:
-      'This project significantly reduced the average time for students to report and find lost items.',
-    href: 'https://github.com/SparshSingh10/LostAndFound',
-    texture: '/textures/project/project3.mp4', // Add appropriate texture path if available
-    logo: '/assets/project-logo-lostandfound.png', // Add appropriate logo path if available
-    logoStyle: {
-      backgroundColor: '#2B2D42',
-      border: '0.2px solid #8D99AE',
-      boxShadow: '0px 0px 60px 0px #EF233C4D',
-    },
-    spotlight: '/assets/spotlight-lostandfound.png', // Add appropriate spotlight image if available
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'Node.js',
-        path: '/assets/nodejs.svg',
-      },
-      {
-        id: 3,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 4,
-        name: 'MongoDB',
-        path: '/assets/mongodb.svg',
-      },
-    ],
-  },
-  {
-    title: 'MovieMania - Movie Ticket Booking Website',
-    desc: 'A comprehensive platform that allows cinema owners to manage show schedules, configure seating plans, and monitor bookings.',
-    subdesc:
-      'This project improved operational efficiency by 25% and provided a seamless user experience for customers.',
-    href: 'https://github.com/SparshSingh10/MovieMania',
-    texture: '/textures/project/project5.mp4', // Add appropriate texture path if available
-    logo: '/assets/project-logo-moviemania.png', // Add appropriate logo path if available
-    logoStyle: {
-      backgroundColor: '#1D3557',
-      border: '0.2px solid #457B9D',
-      boxShadow: '0px 0px 60px 0px #F1FA8C4D',
-    },
-    spotlight: '/assets/spotlight-moviemania.png', // Add appropriate spotlight image if available
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'Node.js',
-        path: '/assets/nodejs.svg',
-      },
-      {
-        id: 3,
-        name: 'Express.js',
-        path: '/assets/express.svg',
-      },
-      {
-        id: 4,
-        name: 'MongoDB',
-        path: '/assets/mongodb.svg',
-      },
-    ],
-  },
-  {
-    title: 'The Eat Now - E-Commerce Website',
-    desc: 'A platform that facilitates browsing, uploading, managing, and reviewing dishes from various vendors.',
-    subdesc:
-      'This project focuses on seamless interaction between customers and vendors through robust CRUD functionality and a secure authentication system.',
-    href: 'https://github.com/SparshSingh10/Ecommerce',
-    texture: '/textures/project/project2.mp4', // Add appropriate texture path if available
-    logo: '/assets/project-logo-theeatnow.png', // Add appropriate logo path if available
-    logoStyle: {
-      backgroundColor: '#F6F8E4',
-      border: '0.2px solid #2A2D34',
-      boxShadow: '0px 0px 60px 0px #4D807C4D',
-    },
-    spotlight: '/assets/spotlight-theeatnow.png', // Add appropriate spotlight image if available
-    tags: [
-      {
-        id: 1,
-        name: 'Node.js',
-        path: '/assets/nodejs.svg',
-      },
-      {
-        id: 2,
-        name: 'Express.js',
-        path: '/assets/express.svg',
-      },
-      {
-        id: 3,
-        name: 'MongoDB',
-        path: '/assets/mongodb.svg',
-      },
-      {
-        id: 4,
-        name: 'EJS',
-        path: '/assets/ejs.svg',
-      },
-      {
-        id: 5,
-        name: 'Bootstrap',
-        path: '/assets/bootstrap.svg',
-      },
-    ],
-  },
-  {
-    title: 'E-Learning Application',
-    desc: 'An interactive platform for students and educators to access courses, materials, and assessments.',
-    subdesc:
-      'The application aims to provide a seamless learning experience through various features like quizzes, video lectures, and user forums.',
-    href: 'https://github.com/SparshSingh10/Elearning', // Add appropriate GitHub link if available
-    texture: '/textures/project/project3.mp4', // Add appropriate texture path if available
-    logo: '/assets/project-logo-elearning.png', // Add appropriate logo path if available
-    logoStyle: {
-      backgroundColor: '#F1FA8C4D',
-      border: '0.2px solid #2A2D34',
-      boxShadow: '0px 0px 60px 0px #4D807C4D',
-    },
-    spotlight: '/assets/spotlight-elearning.png', // Add appropriate spotlight image if available
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'Node.js',
-        path: '/assets/nodejs.svg',
-      },
-      {
-        id: 3,
-        name: 'MongoDB',
-        path: '/assets/mongodb.svg',
-      },
-      {
-        id: 4,
-        name: 'TailwindCSS',
-        path: '/assets/tailwindcss.png',
       },
     ],
   },

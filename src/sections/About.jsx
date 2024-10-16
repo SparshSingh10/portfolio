@@ -21,9 +21,9 @@ const About = () => {
           <div className="grid-container">
             <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
             <div>
-              <p className="grid-headtext">Hi, I’m Adrian Hajdin</p>
+              <p className="grid-headtext">Hi, I’m Sparsh Singh</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
+                With Internship experience, I have honed my skills in both frontend and backend dev, creating dynamic
                 and responsive websites.
               </p>
             </div>
@@ -36,8 +36,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
-                applications.
+                I specialize in JavaScript, HTML, CSS, Node.js, and frameworks like React, Express, and Bootstrap to build scalable applications. Proficient in MongoDB and Git, I leverage these tools to create efficient solutions, including e-commerce and booking platforms.
               </p>
             </div>
           </div>
@@ -59,8 +58,9 @@ const About = () => {
               />
             </div>
             <div>
-              <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Rjieka, Croatia and open to remote work worldwide.</p>
+              <p className="grid-headtext">I’m very flexible with time zone communications & collaboration</p>
+              <p className="grid-subtext">I&apos;m based in Agra, India and open to remote work globally.</p>
+
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
             </div>
           </div>
@@ -72,9 +72,10 @@ const About = () => {
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code. Programming isn&apos;t just my
-                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+                I thrive on solving problems and building projects through code. Programming is not just my
+                profession—it&apos;s my passion. I continuously explore new technologies and strive to enhance my skills.
               </p>
+
             </div>
           </div>
         </div>
@@ -90,7 +91,7 @@ const About = () => {
               <p className="grid-subtext text-center">Contact me</p>
               <div className="copy-container cursor-pointer" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">adrian@jsmastery.pro</p>
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">sparsh262002@gmail.com</p>
               </div>
             </div>
           </div>

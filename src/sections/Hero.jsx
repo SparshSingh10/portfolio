@@ -53,7 +53,7 @@ function Hero() {
                     Hi, I am Sparsh <span className="waving-hand">👋</span>
                 </p>
                 <p className="text-white sm:text-5xl md:text-6xl xl:text-7xl text-center text-4xl font-bold text-gray-400">
-                    Building Products & Brands
+                    B.Tech C.S.E Student
                 </p>
             </div>
             <div className="w-full h-full absolute inset-0">
