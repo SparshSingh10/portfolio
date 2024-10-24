@@ -24,35 +24,35 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
+    name: 'Shubham Saurav',
+    position: 'B.Tech CSE 4th Year Student',
+    img: 'https://media.licdn.com/dms/image/v2/D5635AQHtNsoSfMvxvg/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1707985855802?e=1730408400&v=beta&t=fmyaDSQjXH9Xo58yY8uQrTN35DaVCNiDqrUWpHWayJY',
     review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'Working with Sparsh was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
   },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
+    name: 'Vatsal Garg',
+    position: 'B.Tech CSE 4th Year Student',
+    img: 'https://media.licdn.com/dms/image/v2/D4D35AQElxx9FqdISpg/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1696851273442?e=1730408400&v=beta&t=YrTrkwqiGSSICtOUWgGRVOzLHN3FeniDopH_7TBJSR4',
     review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      'Sparsh expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
   },
   {
     id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
+    name: 'Utkarsh Paliwal',
+    position: 'Intern Member of Technical Staff at Pronnel',
+    img: 'https://media.licdn.com/dms/image/v2/D5603AQELCyzKsAPNkQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707226222780?e=1735171200&v=beta&t=Au7uGwNXMDj5MUa629INBo-L1CQDT-W_jnyfdjuJVHY',
     review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+      'I can’t say enough good things about Sparsh. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
   },
   {
     id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
+    name: 'Elon Musk',
+    position: 'CEO of X and Space X',
+    img: 'https://media.wired.com/photos/597b8cdfb28a665d24d4a91c/master/w_2560%2Cc_limit/ELONMUSK-TA.jpg',
     review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      'Sparsh was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
   },
 ];
 
