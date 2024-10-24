@@ -54,6 +54,14 @@ export const clientReviews = [
     review:
       'Sparsh was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
   },
+  {
+    id: 5,
+    name: 'Elon Musk',
+    position: 'CEO of X and Space X',
+    img: 'https://media.wired.com/photos/597b8cdfb28a665d24d4a91c/master/w_2560%2Cc_limit/ELONMUSK-TA.jpg',
+    review:
+      'Sparsh was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+  },
 ];
 
 export const myProjects = [
